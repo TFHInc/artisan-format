@@ -74,7 +74,8 @@ Output:
 
 ```
 
-[Standard Section Box](docs/standard_section_box.png)
+<img src="docs/standard_section_box.png">
+
 
 ## To Do
 
