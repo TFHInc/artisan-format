@@ -25,7 +25,7 @@ The package will be found via auto discovery. You may also add the service provi
 TFHInc\ArtisanFormat\ArtisanFormatServiceProvider::class,
 ```
 
-Publish the `artisan-format.php` configuration file to your Laravel config directory:
+Publish the `artisan-format.php` configuration file to your `config/` directory:
 
 ``` bash
 php artisan vendor:publish --provider="TFHInc\ArtisanFormat\ArtisanFormatServiceProvider"
@@ -62,11 +62,6 @@ Output:
 
 <img src="docs/standard_section_box.png">
 
-
-## To Do
-
-- Finish Readme
-
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE) for more information.
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
