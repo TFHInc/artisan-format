@@ -59,21 +59,6 @@ $this->sectionBox('Standard Section Box Header', 'Standard Section Box Content')
 ```
 
 Output:
-
-``` bash
-
-/----------------------------------------------------------------------------
-|                                                                           ||
-| Standard Section Box Header                                               ||
-|                                                                           ||
-|---------------------------------------------------------------------------||
-|                                                                           ||
-| Standard Section Box Content                                              ||
-|                                                                           ||
-----------------------------------------------------------------------------//
-
-```
-
 <img src="docs/standard_section_box.png">
 
 
