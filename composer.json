@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "THFInc\\ArtisanFormat\\": "src"
+            "TFHInc\\ArtisanFormat\\": "src"
         }
     },
     "config": {
@@ -38,7 +38,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "THFInc\\ArtisanFormat\\ArtisanFormatServiceProvider"
+                "TFHInc\\ArtisanFormat\\ArtisanFormatServiceProvider"
             ]
         }
     }
