@@ -35,7 +35,7 @@ php artisan vendor:publish --provider="TFHInc\ArtisanFormat\ArtisanFormatService
 
 Artisan Format provides a series of Traits that can be used within your Artisan command classes.
 
-- [Sections](#sections-trait)
+- [Sections](#sections)
 
 ### Sections
 
@@ -73,6 +73,8 @@ Output:
 ----------------------------------------------------------------------------//
 
 ```
+
+[Standard Section Box](docs/standard_section_box.png)
 
 ## To Do
 
