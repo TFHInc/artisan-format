@@ -13,7 +13,7 @@ This package requires PHP 7.0 or newer and Laravel 5.5 or newer.
 Install the package via Composer:
 
 ``` bash
-composer require TFHInc/artisan-format
+composer require tfhinc/artisan-format
 ```
 
 Publish the `artisan-format.php` configuration file to your Laravel config directory:
