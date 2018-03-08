@@ -35,7 +35,11 @@ php artisan vendor:publish --provider="TFHInc\ArtisanFormat\ArtisanFormatService
 
 Artisan Format provides a series of Traits that can be used within your Artisan command classes.
 
-### Sections Trait
+- [Sections](#sections-trait)
+
+### Sections
+
+The Sections trait produces distinct sections of text in your command output.
 
 Include the `ArtianFormatSections` trait in your command class:
 
@@ -46,6 +50,28 @@ class Run extends Command
 {
     
     use ArtisanFormatSections;
+```
+
+Generate a Section with a Header and Content:
+
+``` php
+$this->sectionBox('Standard Section Box Header', 'Standard Section Box Content');
+```
+
+Output:
+
+``` bash
+
+/----------------------------------------------------------------------------
+|                                                                           ||
+| Standard Section Box Header                                               ||
+|                                                                           ||
+|---------------------------------------------------------------------------||
+|                                                                           ||
+| Standard Section Box Content                                              ||
+|                                                                           ||
+----------------------------------------------------------------------------//
+
 ```
 
 ## To Do

@@ -12,7 +12,7 @@ return [
         'line_suffix' => '||',
         'top_prefix' => '/',
         'top_suffix' => '-',
-        'bottom_prefix' => '|',
+        'bottom_prefix' => '-',
         'bottom_suffix' => '//',
         'divider_character' => '-',
         'header_divider_character' => '-',
