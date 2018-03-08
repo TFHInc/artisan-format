@@ -19,15 +19,34 @@ Install the package via Composer:
 composer require tfhinc/artisan-format
 ```
 
+The package will be found via auto discovery. You may also add the service provider in `app/config.php`:
+
+``` bash
+TFHInc\ArtisanFormat\ArtisanFormatServiceProvider::class,
+```
+
 Publish the `artisan-format.php` configuration file to your Laravel config directory:
 
 ``` bash
-php artisan vendor:publish --provider=TFHInc/artisan-format
+php artisan vendor:publish --provider="TFHInc\ArtisanFormat\ArtisanFormatServiceProvider"
 ```
 
 ## Usage
 
-Work in progress.
+Artisan Format provides a series of Traits that can be used within your Artisan command classes.
+
+### Sections Trait
+
+Include the `ArtianFormatSections` trait in your command class:
+
+``` bash
+use TFHInc\ArtisanFormat\Traits\ArtisanFormatSections;
+
+class Run extends Command
+{
+    
+    use ArtisanFormatSections;
+```
 
 ## To Do
 
