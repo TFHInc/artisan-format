@@ -21,7 +21,7 @@ composer require tfhinc/artisan-format
 
 The package will be found via auto discovery. You may also add the service provider in `app/config.php`:
 
-``` bash
+``` php
 TFHInc\ArtisanFormat\ArtisanFormatServiceProvider::class,
 ```
 
@@ -39,7 +39,7 @@ Artisan Format provides a series of Traits that can be used within your Artisan 
 
 Include the `ArtianFormatSections` trait in your command class:
 
-``` bash
+``` php
 use TFHInc\ArtisanFormat\Traits\ArtisanFormatSections;
 
 class Run extends Command
