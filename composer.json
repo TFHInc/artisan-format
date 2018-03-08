@@ -1,20 +1,45 @@
 {
     "name": "tfhinc/artisan-format",
     "description": "Format your Artisan Command Output",
+    "keywords": [
+        "laravel",
+        "php",
+        "artisan",
+        "tfhinc"
+    ],
+    "homepage": "https://github.com/TFHInc/artisan-format",
+    "license": "MIT",
     "authors": [
         {
             "name": "Colin Rafuse",
-            "email": "colin.rafuse@gmail.com"
+            "email": "colin.rafuse@gmail.com",
+            "homepage": "http://colinrafuse.com",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.0",
-        "Illuminate/Console": ">=5.5"
+        "Illuminate/Console": ">=5.5",
+        "illuminate/support": ">=5.5"
     },
     "require-dev": {
         "orchestra/testbench": "^3.3",
-        "phpunit/phpunit": "5.*",
-        "illuminate/support": ">=5.5"
+        "phpunit/phpunit": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "THFInc\\ArtisanFormat\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "THFInc\\ArtisanFormat\\ArtisanFormatServiceProvider"
+            ]
+        }
     }
 }

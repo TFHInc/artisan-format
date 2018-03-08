@@ -6,7 +6,10 @@ Format Laravel Artisan command output.
 
 ## Requirements
 
-This package requires PHP 7.0 or newer and Laravel 5.5 or newer.
+This package requires:
+
+- PHP >= 7.0.0
+- Laravel >= 5.5
 
 ## Installation
 
