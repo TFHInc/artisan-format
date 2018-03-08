@@ -59,6 +59,7 @@ $this->sectionBox('Standard Section Box Header', 'Standard Section Box Content')
 ```
 
 Output:
+
 <img src="docs/standard_section_box.png">
 
 
